@@ -68,7 +68,7 @@ const viewDiceRolled = function()
         //now we have the random number, we need to display the corresponding dice image and update the scores of the active player
 
         diceEl.classList.remove('hidden');
-        diceEl.src = `/images/dice-${dice}.png`;
+        diceEl.src = `/docs/images/dice-${dice}.png`;
 
     
 
