@@ -68,10 +68,8 @@ const viewDiceRolled = function()
         //now we have the random number, we need to display the corresponding dice image and update the scores of the active player
 
         diceEl.classList.remove('hidden');
-        diceEl.src = `/images/dice-${dice}.png`;
-
+        diceEl.src = `https://github.com/VaibhavMalik4187/Pig-Game/blob/main/images/dice-${dice}.png`;
     
-
         //check for a rolled 1, in this case we need to switch the players
 
         if(dice === 1)
